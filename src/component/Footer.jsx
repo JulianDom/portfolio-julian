@@ -5,11 +5,9 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className='conatiner text-center top'>
-          <div className='img'>
-            <img src={""} alt='' />
-          </div>
-          <p>© 2021. All rights reserved by GorkCoder-Themes.</p>
+        <div className='container text-center top'>
+          
+          <p>© 2023. All rights reserved by Julian Dominguez.</p>
         </div>
       </footer>
     </>

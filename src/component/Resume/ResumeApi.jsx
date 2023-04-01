@@ -2,50 +2,50 @@ const ResumeApi = [
   {
     id: 1,
     category: "education",
-    year: "University of DVI (1997 - 2001)",
-    title: "Personal Portfolio April Fools",
-    desc: "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.30/5",
+    year: "2021",
+    title: "Universidad Desarrollo Web 2021 - FrontEnd Web Developer!",
+    desc: "This course teaches the basics of web development, html, css, javascript as well as the development of responsive websites.",
+    
   },
   {
     id: 2,
     category: "education",
-    year: "College of Studies (2000 - 2002) ",
-    title: "Examples Of Personal Portfolio",
-    desc: "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.50/5",
+    year: "2021",
+    title: "Responsive Web Design",
+    desc: "This course teaches responsive web development in depth.",
+    
   },
   {
     id: 3,
     category: "education",
-    year: "University of Studies (1997 - 2001) ",
-    title: "Tips For Personal Portfolio",
-    desc: "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.80/5 ",
+    year: "2022",
+    title: "Javascript Algorithms and Data Structures",
+    desc: "This course focuses on javascript and its depth in both algorithms and data structures.",
+   
   },
   {
     id: 4,
     category: "experience",
-    year: "BSE In CSE (2004 - 2008) ",
-    title: "Diploma in Web Development",
-    desc: "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.70/5 ",
+    year: "2021",
+    title: "Color Website",
+    desc: "having the basics of web development I composed this responsive website.",
+    
   },
   {
     id: 5,
     category: "experience",
-    year: "Job at Rainbow-Themes (2008 - 2016) ",
-    title: "The Personal Portfolio Mystery",
-    desc: "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.95/5 ",
+    year: "2022",
+    title: "Weather App",
+    desc: "having advanced in the path of development, I was able to develop a web app that consumes an api in vanilla js",
+    
   },
   {
     id: 6,
     category: "experience",
-    year: "Works at Plugin Development (2016 - 2020) ",
-    title: "Diploma in Computer Science",
-    desc: "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "5.00/5 ",
+    year: "2022",
+    title: "Tenzies",
+    desc: "Having solid foundations it was time to learn the react library and develop a web game",
+    
   },
 ]
 

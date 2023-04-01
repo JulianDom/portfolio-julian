@@ -55,7 +55,7 @@ button {
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 .btn_shadow:hover {
-  background: #ff014f;
+  background: #a9927d;
   color: white;
   transform: translateY(-10px);
 }
@@ -79,7 +79,7 @@ button {
   margin: 50px 0 50px 0;
 }
 .heading h4 {
-  color: #ff014f;
+  color: #a9927d;
   letter-spacing: 2px;
   font-weight: 400;
 }
@@ -102,7 +102,7 @@ p {
   text-align: center;
 }
 .primary_color {
-  color: #ff014f;
+  color: #a9927d;
 }
 textarea,
 input {
@@ -115,10 +115,10 @@ input {
 }
 /*----------Footer---------*/
 footer {
-  margin: 20% 0 10% 0;
+  margin: 10px
 }
 footer p {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 /*----------Footer---------*/
 @media (max-width: 768px) {

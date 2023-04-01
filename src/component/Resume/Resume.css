@@ -14,7 +14,7 @@
   background-color: #e3e9ed;
 }
 .Resume .rate .btn_shadow {
-  color: #ff014f;
+  color: #a9927d;
   padding: 15px 30px;
   font-weight: bold;
   transition: 0.5s;
@@ -31,7 +31,7 @@
   transform: translate(0);
 }
 .Resume .box:hover .btn_shadow {
-  background: #ff3a75;
+  background: #a9927d;
   box-shadow: none;
   color: white;
 }
@@ -77,7 +77,7 @@
   transition: 0.5s;
 }
 .Resume .box:hover.box:before {
-  background: #ff3a75;
+  background: #a9927d;
 }
 @media (max-width: 768px) {
   .Resume .d_flex {

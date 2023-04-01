@@ -32,13 +32,16 @@
 }
 .Contact .right button {
   width: 100%;
-  color: #ff014f;
+  color: #a9927d;
 }
 .Contact .right button:hover {
   color: white;
 }
 .Contact .right button i {
   margin-left: 10px;
+}
+.box .img img {
+  width: 25rem;
 }
 @media (max-width: 768px) {
   .Contact .d_flex {
