@@ -4,6 +4,8 @@
 .Portfolio .box {
   border-radius: 10px;
   position: relative;
+ 
+  align-items: center;
 }
 .Portfolio .box:hover {
   background: none;
@@ -14,11 +16,14 @@
   height: 300px;
   overflow: hidden;
   transition: 0.5s;
+  text-align: center;
 }
 .Portfolio img {
   width: 100%;
   border-radius: 10px;
   transition: 0.5s;
+  text-align: center;
+  margin-top: 30px;
 }
 .Portfolio .box .img:hover img {
   transform: scale(1.2);

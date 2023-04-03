@@ -1,8 +1,23 @@
-import React, { useState } from "react"
+import React, { useState, useRef } from "react"
+import emailjs from '@emailjs/browser';
 import contact1 from "./contact1.png"
 import "./Contact.css"
 
 const Contact = () => {
+ 
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_bqiqgws', 'template_9fdrmsh', form.current, '8aRjVA24FBCQfDg8f')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+  }
+
   const [data, setData] = useState({
     fullname: "",
     phone: "",
@@ -76,7 +91,7 @@ const Contact = () => {
             </div>
 
             <div className='right box_shodow'>
-              <form onSubmit={formSubmit}>
+              <form ref= {form}onSubmit={sendEmail}>
                 <div className='f_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
@@ -103,6 +118,7 @@ const Contact = () => {
                   SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
                 </button>
               </form>
+              {/* */}
             </div>
           </div>
         </div>
