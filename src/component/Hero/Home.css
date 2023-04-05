@@ -65,8 +65,8 @@
 }
 .hero .right_img img {
   position: absolute;
-  top: 6;
-  right: 10%;
+  right: 19%;
+  top: 11%;
   width: 410px;
   border-radius:10px
 }
@@ -86,9 +86,10 @@
     height: 60vh;
   }
   .hero .right_img img {
-    width: 54vh;
-    height: 60vh;
-    left: 4rem;
+    width: 43vh;
+    height: 56vh;
+    right: 6px;
+    top:55px;
     
   }
 }

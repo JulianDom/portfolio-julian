@@ -67,7 +67,7 @@ const Contact = () => {
                   <p>Frontend Developer</p>
                   <p>I am available for work. Connect with me via and call in to my account.</p> <br />
                   <p>Phone: +54 9 2214358380</p>
-                  <p>Email: juliandom@outlook.com</p> <br />
+                  <p>Email: juliandom@outlook.com.ar</p> <br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
                     <a href="https://www.facebook.com/Julipdominguez/" target="_blank">

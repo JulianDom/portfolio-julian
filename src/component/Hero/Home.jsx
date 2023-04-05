@@ -18,7 +18,7 @@ const Home = () => {
             </h1>
             
 
-            <p>I create both web sites and applications, as well as solutions for problems that may arise in them.</p>
+            <p>I am a 24 year old web developer specializing in frontend. I create both websites and web applications, as well as solutions to problems that may arise in them.</p>
 
             <div className='hero_btn d_flex'>
               <div className='col_1'>

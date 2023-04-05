@@ -8,7 +8,7 @@
   padding: 30px;
 }
 .Contact .details h1 {
-  margin: 20px 0 20px 0;
+  margin: 20px 0 20px 75px;
   font-size: 35px;
 }
 .Contact .details p {
@@ -40,8 +40,12 @@
 .Contact .right button i {
   margin-left: 10px;
 }
+.box .img {
+  text-align: center;
+}
 .box .img img {
-  width: 25rem;
+  width: 22rem;
+  
 }
 @media (max-width: 768px) {
   .Contact .d_flex {
@@ -51,5 +55,8 @@
   .Contact .right {
     width: 100%;
     margin-top: 50px;
+  }
+  .box .img img{
+    width: 20rem;
   }
 }
