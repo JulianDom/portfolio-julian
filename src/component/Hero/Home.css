@@ -77,6 +77,13 @@
     margin-left: 20px;
   }
 
+  @media (min-width: 769px) {
+    .hero .right,
+    .hero .left {
+      width: 100%;
+      margin-left: 20px;
+    }
+  }
   .hero .f_flex {
     flex-direction: column;
     flex-direction: column-reverse;
