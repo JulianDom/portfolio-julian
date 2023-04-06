@@ -88,4 +88,7 @@
     left: 20px;
     
   }
+  .hero_btn button {
+    padding: 10px;
+  }
 }
