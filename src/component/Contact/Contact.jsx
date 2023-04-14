@@ -11,8 +11,7 @@ const Contact = () => {
       e.preventDefault();
   
       emailjs.sendForm('service_bqiqgws', 'template_9fdrmsh', form.current, '8aRjVA24FBCQfDg8f')
-        .then((result) => {
-            console.log(result.text)
+        .then(() => {
             alert('Sent!');
         }, (error) => {
             console.log(error.text)
@@ -97,7 +96,7 @@ const Contact = () => {
                 <div className='f_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
-                    <input type='text' name='fullname' value={data.fullname} onChange={InputEvent} required />
+                    <input type='text' name='fullname' value={data.fullname} onChange={InputEvent} required/>
                   </div>
                   <div className='input row'>
                     <span>PHONE NUMBER </span>
@@ -106,11 +105,11 @@ const Contact = () => {
                 </div>
                 <div className='input'>
                   <span>EMAIL </span>
-                  <input type='email' name='email' value={data.email} onChange={InputEvent}required />
+                  <input type='email' name='email' value={data.email} onChange={InputEvent}required/>
                 </div>
                 <div className='input'>
                   <span>SUBJECT </span>
-                  <input type='text' name='subject' value={data.subject} onChange={InputEvent} required />
+                  <input type='text' name='subject' value={data.subject} onChange={InputEvent} required/>
                 </div>
                 <div className='input'>
                   <span>YOUR MESSAGE </span>
