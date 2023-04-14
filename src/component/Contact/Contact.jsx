@@ -12,9 +12,11 @@ const Contact = () => {
   
       emailjs.sendForm('service_bqiqgws', 'template_9fdrmsh', form.current, '8aRjVA24FBCQfDg8f')
         .then((result) => {
-            console.log(result.text);
+            console.log(result.text)
+            alert('Sent!');
         }, (error) => {
-            console.log(error.text);
+            console.log(error.text)
+            alert(JSON.stringify(err));
         });
   }
 
