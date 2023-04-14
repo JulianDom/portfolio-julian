@@ -95,7 +95,7 @@ const Contact = () => {
                 <div className='f_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
-                    <input type='text' name='fullname' value={data.fullname} onChange={InputEvent} />
+                    <input type='text' name='fullname' value={data.fullname} onChange={InputEvent} required />
                   </div>
                   <div className='input row'>
                     <span>PHONE NUMBER </span>
@@ -104,21 +104,21 @@ const Contact = () => {
                 </div>
                 <div className='input'>
                   <span>EMAIL </span>
-                  <input type='email' name='email' value={data.email} onChange={InputEvent} />
+                  <input type='email' name='email' value={data.email} onChange={InputEvent}required />
                 </div>
                 <div className='input'>
                   <span>SUBJECT </span>
-                  <input type='text' name='subject' value={data.subject} onChange={InputEvent} />
+                  <input type='text' name='subject' value={data.subject} onChange={InputEvent} required />
                 </div>
                 <div className='input'>
                   <span>YOUR MESSAGE </span>
-                  <textarea cols='30' rows='10' name='message' value={data.message} onChange={InputEvent}></textarea>
+                  <textarea cols='30' rows='10' name='message' value={data.message} onChange={InputEvent} required></textarea>
                 </div>
                 <button className='btn_shadow'>
                   SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
                 </button>
               </form>
-              {/* */}
+            
             </div>
           </div>
         </div>
